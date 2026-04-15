@@ -168,10 +168,19 @@ Composite on-chain reputation score (0–95 max) computed from live Base mainnet
 
 ## Links
 
-- **Vaultfire Protocol:** [github.com/Ghostkey316/ghostkey-316-vaultfire-init](https://github.com/Ghostkey316/ghostkey-316-vaultfire-init)
-- **Vaultfire on Base:** [github.com/Ghostkey316/vaultfire-base](https://github.com/Ghostkey316/vaultfire-base)
-- **Hermes Agent:** [github.com/NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
 - **Hub:** [theloopbreaker.com](https://theloopbreaker.com)
+- **Vaultfire Protocol:** [ghostkey-316-vaultfire-init](https://github.com/Ghostkey316/ghostkey-316-vaultfire-init)
+- **Hermes Agent:** [github.com/NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
+
+### Vaultfire Packages
+
+| Package | Description |
+|---------|-------------|
+| [`@vaultfire/x402`](https://github.com/Ghostkey316/vaultfire-x402) | x402 payment protocol — USDC micropayments |
+| [`@vaultfire/xmtp`](https://github.com/Ghostkey316/vaultfire-xmtp) | Trust-gated encrypted agent messaging |
+| [`@vaultfire/vns`](https://github.com/Ghostkey316/vaultfire-vns) | On-chain `.vns` name service |
+| [`@vaultfire/sdk`](https://github.com/Ghostkey316/vaultfire-sdk) | Core SDK — belief verification & attestations |
+| [`vaultfire-contracts`](https://github.com/Ghostkey316/vaultfire-contracts) | All deployed ABIs and contract addresses |
 
 ---
 
