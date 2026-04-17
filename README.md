@@ -4,6 +4,8 @@
 
 A [Hermes Agent](https://github.com/NousResearch/hermes-agent) skill that integrates the [Vaultfire Protocol](https://github.com/Ghostkey316/ghostkey-316-vaultfire-init) — giving every Hermes agent on-chain identity, trust verification, accountability bonds, x402 payments, and XMTP encrypted messaging on Base mainnet.
 
+> **⚠️ Alpha Software** — Vaultfire Protocol is live on mainnet and fully functional, but it is in **alpha**. Smart contracts have **not been formally audited** by a third-party security firm. APIs and interfaces may change. Use at your own risk. See [LICENSE](./LICENSE) for warranty disclaimers.
+
 ---
 
 ## Why This Exists
