@@ -189,8 +189,7 @@ Shows: registered agent count, active partnership bonds, total ETH bonded.
 - **Read-only by default** — write operations (bond creation, x402 signing)
   require VAULTFIRE_AGENT_KEY to be set with a valid private key.
 - **Street Cred max is 95** — not 100. This is intentional per protocol.
-- **Accountability Bonds require yield pool** — the bond contract requires
-  a minimum 10 ETH yield pool balance before activation.
+- **Accountability Bonds are LIVE** — yield pools funded and operational on all 4 chains (Base 0.005 ETH, Avalanche 0.005 AVAX, Arbitrum 0.005 ETH, Polygon 10 MATIC).
 - **XMTP reachability** — checks the production XMTP network. May return
   false if the network is temporarily unavailable.
 - **Retry on 429** — RPC calls retry up to 2 times with exponential
