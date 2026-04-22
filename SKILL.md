@@ -93,7 +93,7 @@ Computes a Trust Grade (A–F) and Street Cred score (0–95).
 
 ```bash
 python3 ~/.hermes/skills/vaultfire/scripts/vaultfire_client.py \
-  trust 0xA054f831B562e729F8D268291EBde1B2EDcFb84F
+  trust 0xfA15Ee28939B222B0448261A22156070f0A7813C
 ```
 
 Output includes: trust grade, street cred score and tier, bond status,
@@ -106,7 +106,7 @@ Quick reputation check — just the score and tier.
 
 ```bash
 python3 ~/.hermes/skills/vaultfire/scripts/vaultfire_client.py \
-  streetcred 0xA054f831B562e729F8D268291EBde1B2EDcFb84F
+  streetcred 0xfA15Ee28939B222B0448261A22156070f0A7813C
 ```
 
 Scoring breakdown:
@@ -125,7 +125,7 @@ Registry. Shows registration status, VNS name, and reputation data.
 
 ```bash
 python3 ~/.hermes/skills/vaultfire/scripts/vaultfire_client.py \
-  identity 0xA054f831B562e729F8D268291EBde1B2EDcFb84F
+  identity 0xfA15Ee28939B222B0448261A22156070f0A7813C
 ```
 
 ### 4. Bond Status
@@ -134,7 +134,7 @@ Check accountability bonds and partnership bonds for an address.
 
 ```bash
 python3 ~/.hermes/skills/vaultfire/scripts/vaultfire_client.py \
-  bonds 0xA054f831B562e729F8D268291EBde1B2EDcFb84F
+  bonds 0xfA15Ee28939B222B0448261A22156070f0A7813C
 ```
 
 Shows: accountability bond count, partnership bond count, total active
@@ -147,7 +147,7 @@ balance on Base.
 
 ```bash
 python3 ~/.hermes/skills/vaultfire/scripts/vaultfire_client.py \
-  x402 0xA054f831B562e729F8D268291EBde1B2EDcFb84F
+  x402 0xfA15Ee28939B222B0448261A22156070f0A7813C
 ```
 
 x402 is Vaultfire's trust-gated payment standard using EIP-712 signed
@@ -159,7 +159,7 @@ Check if an address is reachable on the XMTP encrypted messaging network.
 
 ```bash
 python3 ~/.hermes/skills/vaultfire/scripts/vaultfire_client.py \
-  xmtp 0xA054f831B562e729F8D268291EBde1B2EDcFb84F
+  xmtp 0xfA15Ee28939B222B0448261A22156070f0A7813C
 ```
 
 ### 7. Contract Addresses
@@ -205,5 +205,5 @@ python3 ~/.hermes/skills/vaultfire/scripts/vaultfire_client.py hub
 
 # Should display trust verification for the Vaultfire deployer
 python3 ~/.hermes/skills/vaultfire/scripts/vaultfire_client.py \
-  trust 0xA054f831B562e729F8D268291EBde1B2EDcFb84F
+  trust 0xfA15Ee28939B222B0448261A22156070f0A7813C
 ```

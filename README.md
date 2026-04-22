@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./brand/logo-full.png" alt="Vaultfire" width="420" />
+</p>
+
 # Hermes × Vaultfire
 
 > Every Hermes agent deserves a trust score. This is how they get one.
@@ -53,7 +57,7 @@ python3 ~/.hermes/skills/vaultfire/scripts/vaultfire_client.py hub
 
 # Full trust verification for the Vaultfire deployer
 python3 ~/.hermes/skills/vaultfire/scripts/vaultfire_client.py \
-  trust 0xA054f831B562e729F8D268291EBde1B2EDcFb84F
+  trust 0xfA15Ee28939B222B0448261A22156070f0A7813C
 ```
 
 ### Use in Hermes
